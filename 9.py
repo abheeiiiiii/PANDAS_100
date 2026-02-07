@@ -7,3 +7,4 @@ def department_highest_salary(employee: pd.DataFrame, department: pd.DataFrame) 
     result = result[['name_y', 'name_x', 'salary']]
     result.columns = ['Department', 'Employee', 'Salary']
     return result
+
